@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "lite-server",
+    "start": "lite-server",
     "test": "echo \"Error: no test specified\" && sexit 1"
   },
   "license": "ISC",
