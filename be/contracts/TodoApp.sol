@@ -23,14 +23,10 @@ contract TodoApp {
     );
 
     constructor() public {
-        createTask("Example task 1");
-        createTask("Example task 2");
-        createTask("Example task 3");
-        createTask("Example task 4");
-        createTask("Example task 5");
-        // createTask("Complete the 4th practical work for Blockchain Technology lecture");
-        // createTask("Defend and present the 4th practical work for Blockchain Technology lecture");
-        // createTask("Get back to hometown and celebrate Christmas with family");
+        // createTask("Example task 1");
+        createTask("Complete the 4th practical work for Blockchain Technology lecture");
+        createTask("Defend and present the 4th practical work for Blockchain Technology lecture");
+        createTask("Get back to hometown and celebrate Christmas with family");
     }
 
     function createTask(string memory _content) public {

@@ -19,7 +19,7 @@ contract('TodoApp', (accounts) => {
         const taskCount = await this.todoApp.taskCount();
         const task = await this.todoApp.tasks(taskCount);
         assert.equal(task.id.toNumber(), taskCount.toNumber());
-        assert.equal(task.content, 'Hi, welcome to my Todo page');
+        assert.equal(task.content, 'Example task 1');
         assert.equal(task.completed, false);
         assert.equal(taskCount.toNumber(), 1);
     })
