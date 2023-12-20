@@ -4,7 +4,7 @@ interface CustomAbiItem extends AbiItem {
   signature: string;
 }
 
-export const TODO_APP_ADDRESS = "0x8643Ce0d3B1e55A6A6708CC4FbBEB1834abA8C4D";
+export const TODO_APP_ADDRESS = "0xe3790347c7167ed71935c015041e0a4dfd260cb5";
 
 export const TODO_APP_ABI: CustomAbiItem[] = [
   {
