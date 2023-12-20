@@ -23,7 +23,9 @@ contract TodoApp {
     );
 
     constructor() public {
-        createTask("Hi, welcome to my Todo page");
+        createTask("Complete the 4th practical work for Blockchain Technology lecture");
+        createTask("Defend and present the 4th practical work for Blockchain Technology lecture");
+        createTask("Get back to hometown and celebrate Christmas with family");
     }
 
     function createTask(string memory _content) public {
