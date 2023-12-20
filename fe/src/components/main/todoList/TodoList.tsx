@@ -33,7 +33,7 @@ const TodoList: React.FC<Props> = ({ tasks, createTask, toggleTask }) => {
       <Form onSubmit={handleSubmit}>
         <Form.Input
           label="Enter a new task"
-          placeholder="e.g. Go for a run"
+          placeholder="e.g., Go for a run"
           value={input}
           error={inputError}
           onChange={handleInputChange}

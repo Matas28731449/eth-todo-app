@@ -4,12 +4,12 @@
 
 ## Intro
 
-Created a straightforward Todo application using Ethereum Smart Contracts for educational purposes.
+Developed a simple Todo Application for learning purposes utilizing Ethereum Smart Contracts
 
 ## Technology Stack
 
-- Back-end (Ganache / Solidity / Remix IDE)
-- Front-end (Semantic UI / TypeScript / React)
+Back-end (Ganache / Solidity / Remix IDE)
+Front-end (Semantic UI / TypeScript / React)
 
 ## Installation Process on Local Ethereum Network (e.g., Ganache)
 
